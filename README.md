@@ -14,7 +14,7 @@ sh sup_start.sh
 ```
 
 ## Training and Testing
-'''
+```
 export semi_setting='ki67/ex25'
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -W ignore main_medical_DFCA_a.py \
@@ -25,4 +25,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -W ignore main_medical_DFCA_a.py \
   --pseudo-mask-path outdir/pseudo_masks_ki67/$semi_setting \
   --reliable-id-path /home/u5914116/Harden/SOTA_papper_code/ST-mysel/outdir/reliable_ids_ki67 \
   --save-path outdir/models/$semi_setting   
-'''
+```
